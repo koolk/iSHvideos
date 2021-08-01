@@ -1,0 +1,5 @@
+    $ apk add openssh — install the ssh tools and the ssh server.
+    $ ssh-keygen -A — create the host keys.
+    $ passwd — Set a password for root to protect your iOS device
+    $ echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config
+    $ /usr/sbin/sshd
